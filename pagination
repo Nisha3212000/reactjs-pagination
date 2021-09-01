@@ -1,0 +1,19 @@
+import React,{component}from"react";
+importReactDOMfrom"react-dom";
+importpaginationfrom"react-js-pagination";
+require("bootstrap/less/bootstrap.less");
+class app extends component{
+constructor(props){
+super(props);
+this.state={
+   active page:12
+   };
+ }
+handlepagechange(pagenumber){
+   console.log(active page is ${pagenumber});
+   this.setstate({activepage:page nuber});
+   }
+   render(){
+   return(
+   );}}ReactDOM.render(,
+   document.getelementbyid("root"));
